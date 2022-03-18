@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  //animation: App-logo-spin infinite 10s alternate-reverse;
+  height: 40px;
+  pointer-events: none;
+  display: inline;
+  vertical-align: -6px;
+  animation: App-logo-spin infinite 10s alternate-reverse;
+}
+
+.Horoscope {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.TextBox {
+  padding: 10px;
+}
+
+.animate {
+  animation: App-logo-spin infinite 10s alternate-reverse;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
